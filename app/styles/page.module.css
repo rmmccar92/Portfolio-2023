@@ -40,7 +40,7 @@
   width: 70%;
   height: 100vh;
   left: 50%;
-  top: -100%;
+  top: -75%;
   position: absolute;
 
   filter: blur(14px);

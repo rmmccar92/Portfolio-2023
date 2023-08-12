@@ -5,7 +5,11 @@ interface NavbarProps {}
 const Navbar: FC<NavbarProps> = ({}) => {
   return (
     <div className={styles.navMain}>
-      <h1>Navbar</h1>
+      <div className={styles.navLeft}>
+        <div className={styles.navLogo}>Logo</div>
+        <h2 className={styles.navName}>Ryan McCarthy</h2>
+      </div>
+      <div className={styles.navLinks}>Links</div>
     </div>
   );
 };

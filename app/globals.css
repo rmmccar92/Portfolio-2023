@@ -1,55 +1,26 @@
-root {
-  --primary-glow: radial-gradient(rgba(1, 255, 166, 0.4), rgba(1, 65, 255, 0));
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-end-rgb: 1, 7, 62, 0.867;
+  --background-start-rgb: 0, 0, 0;
+
+  --primary-glow: linear-gradient(
+    to top left,
+    rgba(1, 65, 255, 0),
+    rgba(1, 65, 255, 0),
+    rgba(1, 7, 62, 0.867),
+    rgba(0, 182, 112, 0.607),
+    rgba(71, 207, 249, 0.477) 100%,
+    rgba(1, 7, 62, 0.867)
+  );
   --secondary-glow: linear-gradient(
     to bottom right,
     rgba(1, 65, 255, 0),
     rgba(1, 65, 255, 0),
-    rgba(1, 7, 62, 0.867)
+    rgba(1, 7, 62, 0.867),
+    rgba(71, 207, 249, 0.477),
+    rgba(0, 182, 112, 0.607) 68%,
+    rgba(1, 7, 62, 0.867) 90%
   );
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 1, 7, 62, 0.867;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: linear-gradient(
-      to top left,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 7, 62, 0.867),
-      rgba(0, 182, 112, 0.607),
-      rgba(71, 207, 249, 0.477) 100%,
-      rgba(1, 7, 62, 0.867)
-    );
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 7, 62, 0.867),
-      rgba(71, 207, 249, 0.477),
-      rgba(0, 182, 112, 0.607) 68%,
-      rgba(1, 7, 62, 0.867) 90%
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
 }
 
 * {
