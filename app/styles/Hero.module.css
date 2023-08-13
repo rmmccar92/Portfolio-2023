@@ -1,0 +1,58 @@
+.hero {
+  width: 100%;
+  /* height: 100vh; */
+  animation: color_change 45s infinite alternate;
+}
+
+.heroContainer {
+  position: absolute;
+  inset: 0;
+  top: 12%;
+  max-width: 100%;
+  padding: 0 0 0 6%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 4%;
+}
+
+.heroContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroShapes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.heroElement {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: var(--main-color);
+}
+
+.heroLine {
+  width: 5px;
+  height: 40vh;
+  background: var(--primary-glow);
+}
+
+.heroTitleSpan {
+  color: var(--main-color);
+}
+
+@keyframes color_change {
+  from {
+    filter: hue-rotate(0);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}

@@ -3,6 +3,10 @@
   --background-end-rgb: 1, 7, 62, 0.867;
   --background-start-rgb: 0, 0, 0;
 
+  --main-color: #09ff8c;
+  --secondary-color: #00ffff;
+  --dark-color: #01073edd;
+
   --primary-glow: linear-gradient(
     to top left,
     rgba(1, 65, 255, 0),
@@ -53,5 +57,14 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@keyframes color_change {
+  from {
+    filter: hue-rotate(0);
+  }
+  to {
+    filter: hue-rotate(360deg);
   }
 }

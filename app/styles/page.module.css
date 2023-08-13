@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 /* 
@@ -22,6 +23,7 @@
   position: relative;
   padding: 4rem 0;
   width: 100vw;
+  animation: color_change 45s infinite alternate;
 }
 
 .center::before {
@@ -42,30 +44,16 @@
   left: 50%;
   top: -75%;
   position: absolute;
-
   filter: blur(14px);
   transform: translateZ(0);
+  /* animation-delay: 25s; */
 }
 
-/* Mobile and Tablet */
-@media (max-width: 1023px) {
-  .content {
-    padding: 4rem;
+@keyframes color_change {
+  from {
+    filter: hue-rotate(0);
   }
-
-  /* .grid {
-    grid-template-columns: 1fr;
-    margin-bottom: 120px;
-    max-width: 320px;
-    text-align: center;
-  } */
-
-  .center {
-    padding: 8rem 0 6rem;
-  }
-
-  .center::before {
-    transform: none;
-    height: 300px;
+  to {
+    filter: hue-rotate(360deg);
   }
 }
