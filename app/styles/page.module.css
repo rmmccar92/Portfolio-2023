@@ -44,9 +44,7 @@
   left: 50%;
   top: -75%;
   position: absolute;
-  filter: blur(14px);
-  transform: translateZ(0);
-  /* animation-delay: 25s; */
+  filter: blur(100px);
 }
 
 @keyframes color_change {

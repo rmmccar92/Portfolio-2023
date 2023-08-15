@@ -1,0 +1,45 @@
+.footer {
+  position: relative;
+  width: 100%;
+  background: var(--dark-color);
+  min-height: 100px;
+  padding: 5px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socialIcon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 0;
+  flex-wrap: wrap;
+}
+
+.socialIconLink {
+  margin: 0 10px;
+  filter: invert(1);
+  transition: 0.5s;
+}
+.socialIconLink:hover {
+  transform: translateY(-10px);
+}
+
+.menuLink {
+  font-size: 1rem;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.menuLink:hover {
+  opacity: 1;
+}
+
+.footer p {
+  margin: 10px 0 10px 0;
+  font-size: 0.75rem;
+}
