@@ -1,7 +1,8 @@
 .footer {
-  position: relative;
+  /* position: relative; */
+  float: bottom;
   width: 100%;
-  background: var(--dark-color);
+  background: black;
   min-height: 100px;
   padding: 5px 50px;
   display: flex;

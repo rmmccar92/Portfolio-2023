@@ -6,6 +6,7 @@
   --main-color: #09ff8c;
   --secondary-color: #00ffff;
   --dark-color: #01073edd;
+  --main-glass: rgba(9, 255, 140, 0.78);
 
   --primary-glow: linear-gradient(
     to top left,
@@ -41,12 +42,13 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  /* background: linear-gradient(
+  /* min-height: 100vh; */
+  background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb)); */
+    rgb(var(--background-start-rgb));
   background-color: var(--dark-color);
 }
 
@@ -66,7 +68,7 @@ li {
 }
 
 .main {
-  height: 100vh;
+  min-height: calc(100vh - 34px);
   /* margin-bottom: 4%; */
 }
 

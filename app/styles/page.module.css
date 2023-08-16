@@ -1,9 +1,9 @@
-.main {
+.pageMain {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding-top: 8rem;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -21,9 +21,10 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 0;
+  height: 50vh;
+  padding: 2rem 0;
   width: 100vw;
-  animation: color_change 45s infinite alternate;
+  animation: color_change 180s infinite alternate;
 }
 
 .center::before {
