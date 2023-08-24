@@ -6,15 +6,12 @@
   padding-top: 14rem;
   min-height: 95vh;
   overflow: hidden;
+  z-index: 2;
 }
 
-/* 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(33%, auto));
-  width: var(--max-width);
-  max-width: 100%;
-} */
+.center {
+  z-index: 10;
+}
 
 .center {
   display: flex;
@@ -46,6 +43,10 @@
   top: -75%;
   position: absolute;
   filter: blur(100px);
+}
+
+.treeImage img {
+  z-index: 1;
 }
 
 @keyframes color_change {
