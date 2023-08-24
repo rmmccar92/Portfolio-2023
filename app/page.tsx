@@ -2,6 +2,9 @@ import Image from "next/image";
 import styles from "./styles/page.module.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Work from "./components/Work";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -25,6 +28,9 @@ export default function Home() {
         />
       </div>
       <About />
+      <Work />
+      <Resume />
+      <Contact />
     </div>
   );
 }
