@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import styles from "./styles/Work.module.css";
+import styles from "../styles/Work.module.css";
 
 interface WorkProps {}
 

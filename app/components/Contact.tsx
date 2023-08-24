@@ -1,11 +1,11 @@
 import type { FC } from "react";
-import styles from "./styles/Contact.module.css";
+import styles from "../styles/Contact.module.css";
 
 interface ContactProps {}
 
 const Contact: FC<ContactProps> = ({}) => {
   return (
-    <div>
+    <div className={styles.contactMain}>
       <h1>Contact</h1>
     </div>
   );
