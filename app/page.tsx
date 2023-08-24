@@ -27,10 +27,18 @@ export default function Home() {
           }}
         />
       </div>
-      <About />
-      <Work />
-      <Resume />
-      <Contact />
+      <div id="about">
+        <About />
+      </div>
+      <div id="work">
+        <Work />
+      </div>
+      <div id="resume">
+        <Resume />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }
