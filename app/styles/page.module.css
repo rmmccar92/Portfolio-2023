@@ -45,8 +45,11 @@
   filter: blur(100px);
 }
 
-.treeImage img {
-  z-index: 1;
+.pageImage {
+  /* overflow: hidden;
+  border-radius: 3em;
+  margin-left: 5em;
+  background-image: linear-gradient(to bottom right, #010008, #13c256); */
 }
 
 @keyframes color_change {

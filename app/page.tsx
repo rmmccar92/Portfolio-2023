@@ -11,19 +11,20 @@ export default function Home() {
           <Hero />
         </div>
       </main>
-      <Image
-        className={styles.treeImage}
-        src="/tree.png"
-        alt="tech-tree-image"
-        fill
-        style={{
-          opacity: "100%",
-          zIndex: 0,
-          objectFit: "contain",
-          objectPosition: "right",
-          aspectRatio: "1/1",
-        }}
-      />
+      <div className={styles.pageImage}>
+        <Image
+          className={styles.treeImage}
+          src="/tree_3.png"
+          alt="tech-tree-image"
+          fill
+          style={{
+            opacity: "100%",
+            zIndex: 0,
+            objectFit: "contain",
+            objectPosition: "right",
+          }}
+        />
+      </div>
       <About />
     </div>
   );
