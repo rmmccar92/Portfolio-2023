@@ -5,7 +5,7 @@ interface WorkProps {}
 
 const Work: FC<WorkProps> = ({}) => {
   return (
-    <div>
+    <div className={styles.workMain}>
       <h1>Work</h1>
     </div>
   );

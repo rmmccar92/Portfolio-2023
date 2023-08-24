@@ -5,7 +5,7 @@ interface ResumeProps {}
 
 const Resume: FC<ResumeProps> = ({}) => {
   return (
-    <div>
+    <div className={styles.resumeMain}>
       <h1>Resume</h1>
     </div>
   );

@@ -52,6 +52,12 @@ body {
   background-color: var(--dark-color);
 }
 
+h1 {
+  color: var(--main-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 a {
   color: inherit;
   text-decoration: none;
