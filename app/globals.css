@@ -69,8 +69,6 @@ li {
 
 .main {
   min-height: calc(100vh - 34px);
-  z-index: 10;
-  /* margin-bottom: 4%; */
 }
 
 @keyframes color_change {

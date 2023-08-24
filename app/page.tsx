@@ -7,9 +7,8 @@ export default function Home() {
   return (
     <div className={styles.pageContent}>
       <main className={styles.pageMain}>
-        <div className={styles.center}>
-          <Hero />
-        </div>
+        <div className={styles.center}></div>
+        <Hero />
       </main>
       <div className={styles.pageImage}>
         <Image

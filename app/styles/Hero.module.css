@@ -1,20 +1,17 @@
 .hero {
   width: 100%;
-  /* height: 100vh; */
+  height: 100vh;
   margin-right: 15%;
   animation: color_change 180s infinite alternate;
   z-index: 10;
+  position: absolute;
+  top: 20%;
+  left: 0;
 }
 
 .heroContainer {
-  /* position: absolute; */
   max-width: 100%;
   padding: 0 25% 10% 0;
-  /* margin: auto; */
-  /* display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 5%; */
 }
 
 .heroContent {
@@ -64,11 +61,8 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .hero {
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    padding-top: 10%;
-    background: hsl(0, 0%, 0%, 0.25);
+  .heroContainer {
+    background: hsla(0, 0%, 0%, 0.533);
+    border-radius: 10px;
   }
 }
