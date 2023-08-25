@@ -39,11 +39,66 @@
   filter: blur(100px);
 }
 
+.lowerMain {
+  padding: 0 0 10% 0;
+}
+
+.treeImageInverted {
+  margin-top: 45%;
+  opacity: 65%;
+  z-index: -1;
+  transform: rotate(180deg);
+  object-fit: contain;
+  object-position: left;
+}
+/* 
+.pageImages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+} */
+
+/* .lowerMain::after {
+  content: "";
+  background-image: url("/tree_3.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  transform: rotate(180deg);
+  opacity: 0.65;
+  top: 0;
+  left: 0;
+  bottom: -125%;
+  right: -1%;
+  position: absolute;
+  z-index: -1;
+} */
+
 @keyframes color_change {
   from {
     filter: hue-rotate(0);
   }
   to {
     filter: hue-rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .treeImageInverted {
+    margin-top: 65%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .treeImageInverted {
+    margin-top: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .treeImageInverted {
+    margin-top: 110%;
+    overflow: hidden;
   }
 }
