@@ -50,6 +50,7 @@
   transform: rotate(180deg);
   object-fit: contain;
   object-position: left;
+  filter: hue-rotate(65deg);
 }
 /* 
 .pageImages {

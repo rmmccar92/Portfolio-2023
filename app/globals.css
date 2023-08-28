@@ -1,7 +1,7 @@
 :root {
   --foreground-rgb: 255, 255, 255;
-  --background-end-rgb: 1, 7, 62, 0.867;
-  --background-start-rgb: 0, 0, 0;
+  --background-end: rgb(1, 7, 62, 0.867);
+  --background-start: rgb(0, 0, 0);
 
   --main-color: #09ff8c;
   --secondary-color: #00ffff;
@@ -46,9 +46,9 @@ body {
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(var(--background-end))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start));
   background-color: var(--dark-color);
 }
 
