@@ -44,6 +44,7 @@
 }
 
 .treeImageInverted {
+  display: block;
   margin-top: 45%;
   opacity: 65%;
   z-index: -1;
@@ -87,7 +88,12 @@
 
 @media screen and (max-width: 1200px) {
   .treeImageInverted {
-    margin-top: 65%;
+    /* margin-top: 65%; */
+    display: none;
+  }
+  .treeImage {
+    display: none;
+    /* opacity: 0; */
   }
 }
 

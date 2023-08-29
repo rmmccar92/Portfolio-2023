@@ -50,14 +50,20 @@ body {
     )
     rgb(var(--background-start));
   background-color: var(--dark-color);
+  font-family: var(--archivo-font);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--main-color);
   font-size: 2rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  font-family: var(--handlee-font);
 }
-
 a {
   color: inherit;
   text-decoration: none;

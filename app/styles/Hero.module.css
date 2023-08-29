@@ -7,6 +7,7 @@
   position: absolute;
   top: 20%;
   left: 0;
+  /* right: 5%; */
 }
 
 .heroContainer {
@@ -60,9 +61,9 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   .heroContainer {
     background: hsla(0, 0%, 0%, 0.533);
     border-radius: 10px;
   }
-}
+} */

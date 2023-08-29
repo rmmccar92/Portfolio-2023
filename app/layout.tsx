@@ -1,11 +1,20 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { Archivo } from "next/font/google";
+import { Archivo, Handlee } from "next/font/google";
 
 const archivo = Archivo({
   subsets: ["latin-ext"],
   display: "swap",
+  variable: "--archivo-font",
+});
+
+// @ts-ignore
+const handlee = Handlee({
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+  variable: "--handlee-font",
 });
 
 export const metadata = {
@@ -19,10 +28,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={archivo.className}>
+    <html lang="en" className={`${archivo.variable} ${handlee.variable}`}>
       <body>
         <Navbar />
-        <div className="main">{children}</div>
+        <div className={`main`}>{children}</div>
         <Footer />
       </body>
     </html>
