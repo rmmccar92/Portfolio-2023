@@ -3,21 +3,42 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 2%;
-  background: rgba(0, 0, 0, 0.648);
+  /* background: rgba(0, 0, 0, 0.648); */
 }
-
-.projectCard {
+.projectsContainer {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projectCard {
+  width: 65%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.548);
+  background: radial-gradient(rgba(9, 1, 64, 0.548), rgba(0, 0, 0, 0.548));
   border-radius: 10px;
   padding: 2%;
   margin-bottom: 2%;
+}
+
+.projectInfo {
+  max-width: 40%;
+  height: 100%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projectInfo p {
+  font-size: 20px;
+  margin-bottom: 4%;
 }
