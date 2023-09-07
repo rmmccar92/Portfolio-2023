@@ -34,14 +34,14 @@ export default function Home() {
         />
       </div>
       <div className={styles.lowerMain}>
-        <div id="about">
-          <About />
+        <div id="resume">
+          <Resume />
         </div>
         <div id="work">
           <Work />
         </div>
-        <div id="resume">
-          <Resume />
+        <div id="about">
+          <About />
         </div>
         <div id="contact">
           <Contact />

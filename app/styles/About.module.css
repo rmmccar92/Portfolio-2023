@@ -9,7 +9,7 @@
   border-top-width: 2px;
   border-top-style: solid;
   border-image: linear-gradient(
-      to right,
+      to left,
       var(--secondary-color) 25%,
       rgba(0, 0, 0, 0)
     )
