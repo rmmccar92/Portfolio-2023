@@ -15,20 +15,43 @@ const Work: FC<WorkProps> = ({}) => {
           <div className={styles.projectCard}>
             <div className={styles.projectImage}>
               <Image
-                width={300}
-                height={250}
-                // fill
+                className={styles[project.alt]}
+                width={200}
+                height={150}
                 style={{ maxWidth: "100%", height: "auto" }}
                 src={project.image}
-                alt={project.title}
+                alt={project.alt}
               />
             </div>
             <div className={styles.projectInfo}>
               <h2>{project.title}</h2>
-              <p>{project.description}</p>
-              <a href={project.link} target="_blank">
-                <button>View Project</button>
-              </a>
+              <div className={styles.projectLinks}>
+                <a href={`/project/${project.alt}`} target="_blank">
+                  <button>Find out more!</button>
+                </a>
+                <div className={styles.projectSubLinks}>
+                  <a href={project.repo} target="_blank">
+                    <button>
+                      <Image
+                        width={35}
+                        height={35}
+                        alt="github"
+                        src="/images/technologies/github.png"
+                      />
+                    </button>
+                  </a>
+                  <a href={project.link} target="_blank">
+                    <button>
+                      <Image
+                        width={35}
+                        height={35}
+                        alt="github"
+                        src="/images/technologies/deployed-white.png"
+                      />
+                    </button>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         ))}

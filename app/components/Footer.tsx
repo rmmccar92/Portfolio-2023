@@ -17,7 +17,7 @@ const Footer: FC<FooterProps> = ({}) => {
               width={35}
               height={35}
               alt="github"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              src="/images/technologies/github.png"
             />
           </a>
         </li>

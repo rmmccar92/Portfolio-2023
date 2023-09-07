@@ -2,6 +2,7 @@ const data = {
   projects: [
     {
       title: "Student Tracker",
+      alt: "student-tracker-image",
       link: "https://student-sorter-6f8yccr17-rmmccar92.vercel.app/",
       description: "An application used to sort students into groups.",
       repo: "https://github.com/rmmccar92/Student-Sorter",
@@ -19,10 +20,11 @@ const data = {
     },
     {
       title: "Character Sheet",
+      alt: "character-sheet-image",
       link: "https://character-sheet-rjjz77zy0-rmmccar92.vercel.app/",
       description: "Character Creator for Pathfinder",
       repo: "https://github.com/rmmccar92/Character-Sheet",
-      image: "",
+      image: "/images/ProjectImgs/quill-2.png",
       technologies: [
         "JavaScript",
         "TypeScript",
@@ -40,6 +42,7 @@ const data = {
     },
     {
       title: "PodCentral",
+      alt: "podcentral-image",
       link: "https://pod-central.onrender.com/",
       description:
         "PodCentral is a full stack web application that allows users to browse their favorite podcasts and to create a podcast of their own and upload episodes.",
@@ -64,6 +67,7 @@ const data = {
     },
     {
       title: "PTC Binder",
+      alt: "ptc-binder-image",
       link: "https://rmmccar92.github.io/Confused-Gamer/",
       description:
         "A full stack web application used to track and store a personal pokemon card collection. The site uses the full stack functionality of NextJS with MongoDB for storage and MUI for styled components.",
@@ -89,6 +93,7 @@ const data = {
     },
     {
       title: "Next E-Commerce",
+      alt: "next-e-commerce-image",
       link: "https://next-e-commerce-2-1ebnfmukg-rmmccar92.vercel.app/",
       description:
         "A Demo E-Commerce site built with NextJS, MongoDB, amd GraphQL that I made to get more comfortable with NextJS. MUI was used for styling and Paypal was used for payment processing. Additionally the live application was deployed through Vercel.",
@@ -114,6 +119,7 @@ const data = {
     },
     {
       title: "Confused Gamer",
+      alt: "confused-gamer-image",
       link: "https://rmmccar92.github.io/Confused-Gamer/",
       description:
         "An application designed to recommend and provide information about video games.",
@@ -129,6 +135,7 @@ const data = {
     },
     {
       title: "Farmer's Market Search",
+      alt: "farmers-market-search-image",
       link: "https://still-tor-25996.herokuapp.com/",
       description:
         "A full stack application that allows local farmers and customers to congregate and provide information about nearby farmer's markets.",
