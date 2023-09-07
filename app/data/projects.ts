@@ -17,6 +17,7 @@ const data = {
       contributors: [
         { name: "Ryan McCarthy", ghLink: "https://github.com/rmmccar92" },
       ],
+      status: "Halted",
     },
     {
       title: "Character Sheet",
@@ -39,6 +40,7 @@ const data = {
         { name: "Ryan McCarthy", ghLink: "https://github.com/rmmccar92" },
         { name: "Sean McCarthy", ghLink: "https://github.com/McTastic" },
       ],
+      status: "Halted",
     },
     {
       title: "PodCentral",
@@ -64,6 +66,7 @@ const data = {
         { name: "Brad Rollinson", ghLink: "https://github.com/likearollinson" },
         { name: "Joey Swafford", ghLink: "https://github.com/joeyswafford" },
       ],
+      status: "Complete",
     },
     {
       title: "PTC Binder",
@@ -90,6 +93,7 @@ const data = {
         { name: "Sean McCarthy", ghLink: "https://github.com/McTastic" },
         ,
       ],
+      status: "Complete",
     },
     {
       title: "Next E-Commerce",
@@ -116,6 +120,7 @@ const data = {
       contributors: [
         { name: "Ryan McCarthy", ghLink: "https://github.com/rmmccar92" },
       ],
+      status: "Complete",
     },
     {
       title: "Confused Gamer",
@@ -132,6 +137,7 @@ const data = {
         { name: "Daniel Bradley", ghLink: "https://github.com/WebDeverDan" },
         { name: "Joey Swafford", ghLink: "https://github.com/joeyswafford" },
       ],
+      status: "Complete",
     },
     {
       title: "Farmer's Market Search",
@@ -158,6 +164,7 @@ const data = {
         { name: "Ryan McCarthy", ghLink: "https://github.com/rmmccar92" },
         { name: "Casey Twine", ghLink: "https://github.com/ElusiveSkies" },
       ],
+      status: "Complete",
     },
   ],
 };

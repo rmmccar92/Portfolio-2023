@@ -3,7 +3,16 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 2%;
+}
+
+.skillsContainer {
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  gap: 2%;
+  flex-wrap: wrap;
+  align-items: center;
 }
