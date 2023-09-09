@@ -15,10 +15,10 @@ const Work: FC<WorkProps> = ({}) => {
           <div className={styles.projectCard}>
             <div className={styles.projectImage}>
               <Image
-                className={styles[project.alt]}
-                width={200}
-                height={150}
-                style={{ maxWidth: "100%", height: "auto" }}
+                className={`${styles[project.alt]} ${styles.projectImage}`}
+                // width={200}
+                // height={150}
+                fill
                 src={project.image}
                 alt={project.alt}
               />

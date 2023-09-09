@@ -9,8 +9,8 @@ const Resume: FC<ResumeProps> = ({}) => {
     <div className={styles.resumeMain}>
       <h1>Skills</h1>
       <div className={styles.skillsContainer}>
-        {data.images.map((skill: any) => (
-          <div className={styles.skillCard}>
+        {data.images.map((skill: any, i: number) => (
+          <div key={i} className={styles.skillCard}>
             <div className={styles.skillImage}>
               <Image
                 src={skill.url}
