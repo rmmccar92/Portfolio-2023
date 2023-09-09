@@ -14,8 +14,8 @@ const Resume: FC<ResumeProps> = ({}) => {
             <div className={styles.skillImage}>
               <Image
                 src={skill.url}
-                width={75}
-                height={75}
+                width={60}
+                height={60}
                 alt={skill.name}
                 style={{ maxWidth: "100%", height: "auto" }}
               />

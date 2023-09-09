@@ -17,10 +17,60 @@
 }
 
 .skillsContainer {
+  background: radial-gradient(rgba(9, 1, 64, 0.548), rgba(0, 0, 0, 0.548));
+  padding: 4%;
+  border-radius: 10px;
   display: flex;
-  width: 85%;
+  width: 90%;
   justify-content: center;
   gap: 2%;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.skillCard {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1%;
+  transform: rotate(25deg);
+  background: radial-gradient(var(--main-glass) 40%, transparent);
+}
+
+.skillCard img {
+  transform: rotate(-25deg);
+  z-index: 100;
+}
+
+.skillCard:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: radial-gradient(transparent, var(--main-glass));
+  border-bottom: 29px solid transparent;
+  border-left: 29px solid var(--dark-color);
+  border-right: 29px solid var(--dark-color);
+  /* border-image: radial-gradient(var(--secondary-color), transparent);
+  border-image-width: 0 0 0 29px; */
+  width: 42px;
+  height: 0;
+  z-index: -1;
+}
+
+.skillCard:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(transparent, var(--main-glass));
+  border-top: 29px solid transparent;
+  border-left: 29px solid var(--dark-color);
+  border-right: 29px solid var(--dark-color);
+  width: 42px;
+  height: 0;
+  z-index: -1;
 }

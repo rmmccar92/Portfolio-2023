@@ -16,8 +16,6 @@ const Work: FC<WorkProps> = ({}) => {
             <div className={styles.projectImage}>
               <Image
                 className={`${styles[project.alt]} ${styles.projectImage}`}
-                // width={200}
-                // height={150}
                 fill
                 src={project.image}
                 alt={project.alt}
