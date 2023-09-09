@@ -43,6 +43,10 @@
   padding: 0 0 10% 0;
 }
 
+.treeImage {
+  animation: fade_in 2s ease-in-out;
+}
+
 .treeImageInverted {
   display: block;
   margin-top: 45%;
@@ -52,37 +56,32 @@
   object-fit: contain;
   object-position: left;
   filter: hue-rotate(65deg);
+  animation: fade_in 2s ease-in-out;
 }
-/* 
-.pageImages {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-} */
-
-/* .lowerMain::after {
-  content: "";
-  background-image: url("/tree_3.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  transform: rotate(180deg);
-  opacity: 0.65;
-  top: 0;
-  left: 0;
-  bottom: -125%;
-  right: -1%;
-  position: absolute;
-  z-index: -1;
-} */
-
 @keyframes color_change {
   from {
     filter: hue-rotate(0);
   }
   to {
     filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade_out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 
