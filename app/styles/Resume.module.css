@@ -26,6 +26,7 @@
   gap: 2%;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 2%;
 }
 
 .skillCard {
@@ -36,6 +37,7 @@
   align-items: center;
   position: relative;
   padding: 1%;
+  margin: 8px;
   transform: rotate(25deg);
   background: radial-gradient(var(--main-glass) 40%, transparent);
 }
