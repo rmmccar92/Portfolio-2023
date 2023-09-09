@@ -13,7 +13,7 @@ const data = {
     { name: "Git", url: "/images/technologies/Git.png" },
     { name: "Github", url: "/images/technologies/GitHub.png" },
     { name: "NodeJS", url: "/images/technologies/Node.svg" },
-    { name: "Express", url: "/images/technologies/Express.png" },
+    { name: "Express", url: "/images/technologies/expressjs_logo2.png" },
     { name: "Vercel", url: "/images/technologies/Vercel.png" },
   ],
 };

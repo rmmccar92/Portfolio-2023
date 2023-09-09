@@ -20,8 +20,13 @@
   background: radial-gradient(rgba(9, 1, 64, 0.548), rgba(0, 0, 0, 0.548));
   padding: 4%;
   border-radius: 10px;
-  display: flex;
   width: 90%;
+  border: 1px solid var(--main-color);
+}
+
+.skillList {
+  display: flex;
+  width: 100%;
   justify-content: center;
   gap: 2%;
   flex-wrap: wrap;
@@ -60,19 +65,37 @@
   transition: scale 0.25s ease-in-out;
 }
 
-.skillCard img {
-  transform: rotate(-25deg);
-  z-index: 100;
-  animation: rotate 0.85s ease-in-out;
+.skillImage {
+  max-width: 100%;
+  height: auto;
 }
 
-.skillCard img:hover {
+.skillImage:hover .skillCard {
+  animation: rotate 2s linear infinite;
   scale: 1.2;
   transition: scale 0.25s ease-in-out;
 }
 
+.skillCard img {
+  transform: rotate(-25deg);
+  animation: rotate 0.85s ease-in-out;
+}
+
 .skillCard:hover img {
   animation: antirotate 2s linear infinite;
+}
+
+.skillDisplay {
+  width: 100%;
+  margin-top: 2%;
+  height: 24px;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.visible {
+  animation: fade_in 0.75s ease-in-out;
 }
 
 @keyframes rotate {
@@ -92,5 +115,23 @@
   100% {
     transform: rotate(-385deg);
     opacity: 1;
+  }
+}
+
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade_out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
