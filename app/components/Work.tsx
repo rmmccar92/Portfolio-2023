@@ -11,8 +11,8 @@ const Work: FC<WorkProps> = ({}) => {
       <h1>Work</h1>
 
       <div className={styles.projectsContainer}>
-        {projects.map((project) => (
-          <div className={styles.projectCard}>
+        {projects.map((project, i: number) => (
+          <div className={styles.projectCard} key={i}>
             <div className={styles.projectImage}>
               <Image
                 className={`${styles[project.alt]} ${styles.projectImage}`}
