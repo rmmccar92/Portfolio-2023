@@ -82,12 +82,3 @@ li {
 .main {
   min-height: calc(100vh - 34px);
 }
-
-@keyframes color_change {
-  from {
-    filter: hue-rotate(0);
-  }
-  to {
-    filter: hue-rotate(360deg);
-  }
-}

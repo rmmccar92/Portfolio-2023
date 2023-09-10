@@ -1,7 +1,5 @@
 const data = {
   images: [
-    { name: "HTML", url: "/images/technologies/HTML5.png" },
-    { name: "CSS", url: "/images/technologies/CSS.png" },
     { name: "JavaScript", url: "/images/technologies/JS.png" },
     { name: "TypeScript", url: "/images/technologies/TS.svg" },
     { name: "jQuery", url: "/images/technologies/jquery.png" },
@@ -13,6 +11,8 @@ const data = {
     { name: "Git", url: "/images/technologies/Git.png" },
     { name: "Github", url: "/images/technologies/GitHub.png" },
     { name: "NodeJS", url: "/images/technologies/Node.svg" },
+    { name: "HTML", url: "/images/technologies/HTML5.png" },
+    { name: "CSS", url: "/images/technologies/CSS.png" },
     { name: "Express", url: "/images/technologies/expressjs_logo2.png" },
     { name: "Vercel", url: "/images/technologies/Vercel.png" },
   ],
