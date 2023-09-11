@@ -19,7 +19,7 @@ const Footer: FC<FooterProps> = ({}) => {
                 width={35}
                 height={35}
                 alt="github"
-                src={require("../../public/images/technologies/Github.png")}
+                src={require("/public/images/technologies/Github.png")}
               />
             </a>
           </li>
