@@ -19,7 +19,7 @@ const Footer: FC<FooterProps> = ({}) => {
                 width={35}
                 height={35}
                 alt="github"
-                src="/images/technologies/Github.png"
+                src="/images/technologies/GitHub.png"
               />
             </a>
           </li>
