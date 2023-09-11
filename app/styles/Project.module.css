@@ -1,0 +1,33 @@
+.projectMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 5%;
+  /* background-color: #282c34;
+  color: white; */
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  width: 85%;
+  height: 90vh;
+  background: radial-gradient(rgba(9, 1, 64, 0.548), rgba(0, 0, 0, 0.548));
+}
+
+.projectImage {
+  width: 50%;
+  height: auto;
+  display: flex;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  /* animation: fade_in 1.25s ease-in-out; */
+}

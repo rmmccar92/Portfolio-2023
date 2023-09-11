@@ -24,7 +24,7 @@ const Work: FC<WorkProps> = ({}) => {
             <div className={styles.projectInfo}>
               <h2>{project.title}</h2>
               <div className={styles.projectLinks}>
-                <a href={`/projects/${project.alt}`}>
+                <a href={`/project/${project.alt}`}>
                   <button>Find out more!</button>
                 </a>
                 <div className={styles.projectSubLinks}>
@@ -34,7 +34,7 @@ const Work: FC<WorkProps> = ({}) => {
                         width={35}
                         height={35}
                         alt="github"
-                        src="/images/technologies/Github.png"
+                        src={"/images/technologies/Github.png"}
                       />
                     </button>
                   </a>
