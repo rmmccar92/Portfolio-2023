@@ -34,7 +34,7 @@ const Work: FC<WorkProps> = ({}) => {
                         width={35}
                         height={35}
                         alt="github"
-                        src={require("/public/images/technologies/Github.png")}
+                        src="/images/technologies/Github.png"
                       />
                     </button>
                   </a>
