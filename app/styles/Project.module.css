@@ -5,8 +5,6 @@
   align-items: center;
   height: 100vh;
   padding-top: 5%;
-  /* background-color: #282c34;
-  color: white; */
 }
 
 .projectContainer {
@@ -20,14 +18,80 @@
   background: radial-gradient(rgba(9, 1, 64, 0.548), rgba(0, 0, 0, 0.548));
 }
 
+.projectContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  animation: fade_in 1s ease-in-out;
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 35%;
+  font-size: 1.5em;
+  line-height: 1.35em;
+}
+.projectInfo h1 {
+  margin-bottom: 2%;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(
+      to left,
+      var(--secondary-color) 25%,
+      rgba(0, 0, 0, 0)
+    )
+    1;
+}
 .projectImage {
   width: 50%;
   height: auto;
   display: flex;
+  flex-direction: column;
   object-fit: contain;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   margin-bottom: 2%;
-  /* animation: fade_in 1.25s ease-in-out; */
+  animation: fade_in 1s ease-in-out;
+}
+
+.projectExtra {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectLinks {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.projectGH {
+  filter: invert(1);
+}
+
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade_out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

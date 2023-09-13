@@ -6,7 +6,11 @@ const data = {
       link: "https://student-sorter-6f8yccr17-rmmccar92.vercel.app/",
       description: "An application used to sort students into groups.",
       repo: "https://github.com/rmmccar92/Student-Sorter",
-      image: "/images/ProjectImgs/unc.png",
+      icon: "/images/ProjectImgs/unc.png",
+      images: [
+        "/images/ProjectImgs/student_sorter_images/sorter_image_1.png",
+        "/images/ProjectImgs/student_sorter_images/sorter_image_2.png",
+      ],
       technologies: [
         "JavaScript",
         "TypeScript",
@@ -28,7 +32,8 @@ const data = {
       link: "https://character-sheet-rjjz77zy0-rmmccar92.vercel.app/",
       description: "Character Creator for Pathfinder",
       repo: "https://github.com/rmmccar92/Character-Sheet",
-      image: "/images/ProjectImgs/quill-2.png",
+      icon: "/images/ProjectImgs/quill-2.png",
+      images: ["/images/ProjectImgs/cs_images/cs_homepage.png"],
       technologies: [
         "JavaScript",
         "TypeScript",
@@ -54,7 +59,12 @@ const data = {
       description:
         "PodCentral is a full stack web application that allows users to browse their favorite podcasts and to create a podcast of their own and upload episodes.",
       repo: "https://github.com/rmmccar92/PodCentral",
-      image: "/images/ProjectImgs/podcast-logo.png",
+      icon: "/images/ProjectImgs/podcast-logo.png",
+      images: [
+        "/images/ProjectImgs/podcentral_images/pc_img_1.png",
+        "/images/ProjectImgs/podcentral_images/pc_img_2.png",
+        "/images/ProjectImgs/podcentral_images/pc_img_3.png",
+      ],
       technologies: [
         "JavaScript",
         "React",
@@ -62,9 +72,7 @@ const data = {
         "NodeJS",
         "Express",
         "MongoDB",
-        "Mongoose",
         "GraphQL",
-        "Heroku",
       ],
       contributors: [
         { name: "Ryan McCarthy", ghLink: "https://github.com/rmmccar92" },
@@ -82,17 +90,21 @@ const data = {
       description:
         "A full stack web application used to track and store a personal pokemon card collection. The site uses the full stack functionality of NextJS with MongoDB for storage and MUI for styled components.",
       repo: "https://ptc-binder-v2-4kml8079p-team-mc.vercel.app/",
-      image: "/images/ProjectImgs/pokeball.svg",
+      icon: "/images/ProjectImgs/pokeball.svg",
+      images: [
+        "/images/ProjectImgs/ptc_images/ptc_img_1.png",
+        "/images/ProjectImgs/ptc_images/ptc_img_2.png",
+        "/images/ProjectImgs/ptc_images/ptc_img_3.png",
+      ],
       technologies: [
-        "HTML5",
-        "CSS3",
+        "HTML",
+        "CSS",
         "JavaScript",
         "React",
         "NextJS",
         "MUI",
         "MongoDB",
-        "Node",
-        "JSCookie",
+        "NodeJS",
         "Vercel",
       ],
       contributors: [
@@ -111,19 +123,18 @@ const data = {
       description:
         "A Demo E-Commerce site built with NextJS, MongoDB, amd GraphQL that I made to get more comfortable with NextJS. MUI was used for styling and Paypal was used for payment processing. Additionally the live application was deployed through Vercel.",
       repo: "https://github.com/rmmccar92/Next_E_Commerce",
-      image: "/images/ProjectImgs/next-e-commerce.png",
+      icon: "/images/ProjectImgs/e-commerce-icon.png",
+      images: ["/images/ProjectImgs/nec_images/next-e-commerce.png"],
       technologies: [
-        "HTML5",
-        "CSS3",
+        "HTML",
+        "CSS",
         "JavaScript",
         "React",
         "NextJS",
         "MUI",
         "MongoDB",
         "GraphQL",
-        "Node",
-        "JSCookie",
-        "Axios",
+        "NodeJS",
         "Vercel",
       ],
       contributors: [
@@ -140,8 +151,9 @@ const data = {
       description:
         "An application designed to recommend and provide information about video games.",
       repo: "https://github.com/rmmccar92/Confused-Gamer",
-      image: "/images/ProjectImgs/CGImage.png",
-      technologies: ["HTML5", "CSS3", "JavaScript", "jQuery", "Materialize"],
+      icon: "/images/ProjectImgs/buttons.png",
+      images: ["/images/ProjectImgs/cg_images/CGImage.png"],
+      technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Materialize"],
       contributors: [
         { name: "Ryan McCarthy", ghLink: "https://github.com/rmmccar92" },
         { name: "Aubrey Henley", ghLink: "https://github.com/aubrihenley" },
@@ -160,18 +172,18 @@ const data = {
         "A full stack application that allows local farmers and customers to congregate and provide information about nearby farmer's markets.",
 
       repo: "https://github.com/rmmccar92/Farmers-Market-Search",
-      image: "/images/ProjectImgs/fmsearchimg2.png",
+      icon: "/images/ProjectImgs/fms_icon_2.png",
+      images: ["/images/ProjectImgs/fms_images/fmsearchimg2.png"],
       technologies: [
-        "HTML5",
-        "CSS3",
+        "HTML",
+        "CSS",
         "JavaScript",
         "HandleBars",
         "NodeJS",
         "Express",
         "Bootstrap",
-        "MySql",
+        "MySQL",
         "GSAP",
-        "Heroku",
       ],
       contributors: [
         { name: "Ryan McCarthy", ghLink: "https://github.com/rmmccar92" },

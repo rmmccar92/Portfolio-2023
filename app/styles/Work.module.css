@@ -83,7 +83,11 @@
 }
 
 .character-sheet-image {
-  filter: brightness(100);
+  filter: invert(100%);
+}
+
+.confused-gamer-image {
+  filter: invert(100%);
 }
 
 @keyframes fade_in {
