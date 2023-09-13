@@ -7,17 +7,19 @@ const Navbar: FC<NavbarProps> = ({}) => {
     <div className={styles.navMain}>
       <div className={styles.navLeft}>
         {/* <div className={styles.navLogo}>Logo</div> */}
-        <h2 className={styles.navName}>Ryan McCarthy</h2>
+        <a href="/">
+          <h2 className={styles.navName}>Ryan McCarthy</h2>
+        </a>
       </div>
       <div className={styles.navLinks}>
         <li>
-          <a href="#about">About</a>
+          <a href="/#about">About</a>
         </li>
         <li>
-          <a href="#work">Work</a>
+          <a href="/#work">Work</a>
         </li>
         <li>
-          <a href="#resume">Resume</a>
+          <a href="/#resume">Resume</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
