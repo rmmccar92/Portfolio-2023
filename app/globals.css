@@ -74,7 +74,12 @@ button {
   background: none;
   cursor: pointer;
   outline: none;
-  font-size: 1.25em;
+  font-size: 1.2em;
+  padding: 6px 10px;
+  background: #010847;
+  border: var(--dark-color) 2px solid;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 @media (prefers-color-scheme: dark) {
