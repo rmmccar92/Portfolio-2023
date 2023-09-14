@@ -82,6 +82,30 @@ button {
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
+input,
+textarea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  border: var(--dark-color) 1px solid;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  min-width: 100%;
+  min-height: 100px;
+  margin-bottom: 2%;
+}
+
+input {
+  text-align: center;
+  height: 30px;
+  margin-bottom: 1%;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
