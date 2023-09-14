@@ -34,7 +34,7 @@ export default function Home() {
         />
       </div>
       <div className={styles.lowerMain}>
-        <div id="resume">
+        <div id="skills">
           <Resume />
         </div>
         <div id="work">

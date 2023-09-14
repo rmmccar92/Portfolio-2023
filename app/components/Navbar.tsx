@@ -19,7 +19,15 @@ const Navbar: FC<NavbarProps> = ({}) => {
           <a href="/#work">Work</a>
         </li>
         <li>
-          <a href="/#resume">Resume</a>
+          <a
+            href="https://docs.google.com/document/d/1GW4Mh8TcR8h2XnHh0ea7vz4DZziSgYeg/edit?usp=sharing&ouid=113134210697513836248&rtpof=true&sd=true"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </li>
+        <li>
+          <a href="/#skills">Skills</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
