@@ -30,6 +30,26 @@ const Projects: FC<ProjectsProps> = ({ selectedProject }) => {
               />
             );
           })}
+          <div className={styles.projectTechList}>
+            {selectedProject.technologies.map((t: string, i: number) => {
+              const selectedTech = data.images.find(
+                (item: any) => item.name === t
+              ) || { url: "", name: "" };
+              return (
+                <div className={styles.projectTech}>
+                  {/* <p>{selectedTech.name}</p> */}
+                  <Image
+                    key={i}
+                    width={25}
+                    height={35}
+                    className={styles.projectTech}
+                    src={selectedTech.url}
+                    alt={`${selectedTech.name} logo`}
+                  />
+                </div>
+              );
+            })}
+          </div>
         </div>
         <div className={styles.projectExtra}>
           <div className={styles.projectLinks}>
@@ -51,26 +71,6 @@ const Projects: FC<ProjectsProps> = ({ selectedProject }) => {
                 alt="Link logo"
               />
             </a>
-          </div>
-          <div className={styles.projectTech}>
-            {selectedProject.technologies.map((t: string, i: number) => {
-              const selectedTech = data.images.find(
-                (item: any) => item.name === t
-              ) || { url: "", name: "" };
-              return (
-                <div>
-                  <p>{selectedTech.name}</p>
-                  <Image
-                    key={i}
-                    width={40}
-                    height={40}
-                    className={styles.projectTech}
-                    src={selectedTech.url}
-                    alt={`${selectedTech.name} logo`}
-                  />
-                </div>
-              );
-            })}
           </div>
         </div>
       </div>

@@ -69,6 +69,14 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.25em;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

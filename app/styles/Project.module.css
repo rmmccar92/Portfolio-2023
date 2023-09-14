@@ -3,18 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 5%;
 }
 
 .projectContainer {
   display: flex;
   justify-content: center;
+  padding-top: 2%;
+  margin: 2% 0;
   align-items: center;
   border: 1px solid var(--main-color);
   border-radius: 10px;
   width: 85%;
-  height: 90vh;
+  min-height: 90vh;
   background: radial-gradient(rgba(9, 1, 64, 0.548), rgba(0, 0, 0, 0.548));
 }
 
@@ -47,7 +49,7 @@
     1;
 }
 .projectImage {
-  width: 50%;
+  width: 60%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -55,7 +57,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  margin-bottom: 2%;
+  margin: 2% 0;
   animation: fade_in 1s ease-in-out;
 }
 
@@ -68,6 +70,7 @@
 
 .projectLinks {
   width: 50%;
+  margin-bottom: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,6 +79,23 @@
 
 .projectGH {
   filter: invert(1);
+}
+
+.projectTechList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectTech {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes fade_in {
@@ -93,5 +113,26 @@
   }
   to {
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .projectContainer {
+    width: 95%;
+    flex-direction: column;
+  }
+  .projectInfo {
+    max-width: 90%;
+    font-size: 1.15rem;
+  }
+
+  .projectContent {
+    flex-direction: column;
+  }
+  .projectImage {
+    gap: 2%;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
