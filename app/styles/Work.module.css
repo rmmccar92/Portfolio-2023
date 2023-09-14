@@ -76,9 +76,7 @@
   cursor: pointer;
 }
 
-.projectSubLinks button {
-  background: transparent;
-  border: none;
+.projectSubLinks button img {
   filter: brightness(100);
 }
 
