@@ -1,5 +1,6 @@
 .navMain {
   background-color: #000000;
+  width: 100vw;
   color: var(--main-color);
   display: flex;
   justify-content: space-around;
