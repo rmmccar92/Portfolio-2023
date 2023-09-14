@@ -18,7 +18,16 @@ const Hero: FC<HeroProps> = ({}) => {
                 Hi, I'm
                 <span className={styles.heroTitleSpan}> Ryan</span>
               </h1>
-              <p>I'm a full-stack developer.</p>
+              <p className={styles.heroIntro}>
+                I'm a full-stack developer. Feel free to take a look at some of
+                my
+                <span className={styles.heroStyledText}>
+                  <a href="#work"> projects</a>
+                </span>
+                , or just stick around and watch the
+                <span className={styles.heroStyledText}> colors </span>
+                change.
+              </p>
             </div>
           </div>
         </div>
