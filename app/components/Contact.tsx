@@ -57,6 +57,7 @@ const Contact: FC<ContactProps> = ({}) => {
     <div className={styles.contactMain}>
       <h1>Contact</h1>
       <div className={styles.contactContainer}>
+        <p className={styles.contactText}>Say hello or send me a message 😁</p>
         <form onSubmit={handleSubmit}>
           <div className={styles.formGroup}>
             <label htmlFor="name">Name</label>
